@@ -1,0 +1,72 @@
+@import 'colors';
+@import 'fonts';
+
+.chart-container {
+  width: inherit;
+  height: inherit;
+  background-color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2.5px;
+}
+
+.bar {
+  background-color: $eerie-black;
+  color: $auburn;
+  text-decoration-color: lightblue;
+}
+
+.pie {
+  background-color: $auburn;
+  color: $eerie-black;
+  text-decoration-color: pink;
+}
+
+
+
+.appp {
+  display: flex;
+  flex-direction: row;
+  margin-top: -35px;
+  margin-left: -10px;
+  width: 100%;
+  height: 100%;
+}
+
+.root {
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  padding-top: 50px;
+  font-size: 2rem;
+  font-family: 'TT Norms Pro Black';
+}
+
+.left {
+  width: 49vw;
+  height: 100vh;
+}
+
+.right {
+  width: 50vw;
+  height: 100vh;
+}
+
+.chart {
+  width: 65%;
+  height: 65%;
+}
+
+.bar-chart {
+  height: 700px;
+  margin-top: 100px;
+  padding-left: 150px;
+}
+
+.pie-chart {
+  width: 500px;
+  padding-left: 140px;
+}
